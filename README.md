@@ -42,3 +42,9 @@ password-checkup-advanced/
 服务端不知道用户密码	         OPRF 实现盲签名
 用户无法枚举泄露集内容	       布隆过滤器（不可逆 + 不泄露）
 查询隐私保护	                 不显式暴露 password 或 z 值
+
+输入如下测试数据进行模拟检测：
+
+用户名	          密码	           结果
+test@example.com	123456	      ⚠️ Password reuse detected!
+test@example.com	abcdefg12345	✅ Password looks safe.
