@@ -46,5 +46,5 @@ password-checkup-advanced/
 输入如下测试数据进行模拟检测：
 
 用户名	          密码	           结果
-test@example.com	123456	      ⚠️ Password reuse detected!
-test@example.com	abcdefg12345	✅ Password looks safe.
+test@example.com	123456	       Password reuse detected!
+test@example.com	abcdefg12345	 Password looks safe.
